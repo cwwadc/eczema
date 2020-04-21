@@ -1,6 +1,6 @@
 package com.eczema.cloud.constant;
 
-public interface CommonConstants {
+public interface  CommonConstants {
     /**
      * 成功标记
      */
