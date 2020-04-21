@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eczema.mall.mapper.SysRoleMenuMapper">
+
+    <resultMap id="sysRoleMenuMap" type="com.eczema.mall.entity.SysRoleMenu">
+        <id property="roleId" column="role_id"/>
+        <result property="menuId" column="menu_id"/>
+    </resultMap>
+
+    <sql id="sysRoleMenuSql">
+        sys_role_menu.`role_id`,        sys_role_menu.`menu_id`    </sql>
+</mapper>
