@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>eczema-common-core</module>
+        <module>eczema-common-security</module>
     </modules>
 
 </project>

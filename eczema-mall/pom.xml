@@ -55,7 +55,17 @@
         <!-- eczema-common -->
         <dependency>
             <groupId>org.eczema</groupId>
-            <artifactId>eczema-common</artifactId>
+            <artifactId>eczema-common-core</artifactId>
+        </dependency>
+        <!-- druid 连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- mysql连接 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
 
