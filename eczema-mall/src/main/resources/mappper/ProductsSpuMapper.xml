@@ -37,5 +37,17 @@
     </resultMap>
 
     <sql id="productsSpuSql">
-        products_spu.`id`,        products_spu.`tenant_id`,        products_spu.`spu_code`,        products_spu.`name`,        products_spu.`sell_point`,        products_spu.`description`,        products_spu.`category_first`,        products_spu.`category_second`,        products_spu.`pic_urls`,        products_spu.`shelf`,        products_spu.`sort`,        products_spu.`price_down`,        products_spu.`price_up`,        products_spu.`sale_num`,        products_spu.`create_time`,        products_spu.`update_time`,        products_spu.`spec_type`,        products_spu.`del_flag`,        products_spu.`points_give_switch`,        products_spu.`points_give_num`,        products_spu.`points_deduct_switch`,        products_spu.`points_deduct_scale`,        products_spu.`points_deduct_amount`,        products_spu.`freight_templat_id`,        products_spu.`delivery_place_id`,        products_spu.`factory_id`,        products_spu.`factory_name`,        products_spu.`vido_urls`,        products_spu.`images_urls`    </sql>
+        products_spu.`id`,products_spu.`tenant_id`,products_spu.`spu_code`,
+        products_spu.`name`,products_spu.`sell_point`,products_spu.`description`,
+        products_spu.`category_first`,products_spu.`category_second`,products_spu.`pic_urls`,
+        products_spu.`shelf`,products_spu.`sort`,products_spu.`price_down`,
+        products_spu.`price_up`,products_spu.`sale_num`,products_spu.`create_time`,
+        products_spu.`update_time`,products_spu.`spec_type`,products_spu.`del_flag`,
+        products_spu.`points_give_switch`,products_spu.`points_give_num`,
+        products_spu.`points_deduct_switch`,products_spu.`points_deduct_scale`,products_spu.`points_deduct_amount`,
+        products_spu.`freight_templat_id`,products_spu.`delivery_place_id`,products_spu.`factory_id`,
+        products_spu.`factory_name`,products_spu.`vido_urls`,products_spu.`images_urls`
+    </sql>
+
+
 </mapper>

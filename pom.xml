@@ -187,6 +187,12 @@
         <artifactId>commons-io</artifactId>
         <version>${commons.io.version}</version>
       </dependency>
+      <!-- eczema-common -->
+      <dependency>
+        <groupId>org.eczema</groupId>
+        <artifactId>eczema-common-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 

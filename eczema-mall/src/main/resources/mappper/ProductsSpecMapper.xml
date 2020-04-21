@@ -14,5 +14,11 @@
     </resultMap>
 
     <sql id="productsSpecSql">
-        products_spec.`id`,        products_spec.`tenant_id`,        products_spec.`name`,        products_spec.`del_flag`,        products_spec.`create_time`,        products_spec.`update_time`    </sql>
+        products_spec.`id`,
+        products_spec.`tenant_id`,
+        products_spec.`name`,
+        products_spec.`del_flag`,
+        products_spec.`create_time`,
+        products_spec.`update_time`
+    </sql>
 </mapper>

@@ -52,6 +52,11 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
+        <!-- eczema-common -->
+        <dependency>
+            <groupId>org.eczema</groupId>
+            <artifactId>eczema-common</artifactId>
+        </dependency>
     </dependencies>
 
 

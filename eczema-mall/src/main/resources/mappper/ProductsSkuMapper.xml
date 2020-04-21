@@ -25,5 +25,22 @@
     </resultMap>
 
     <sql id="productsSkuSql">
-        products_sku.`id`,        products_sku.`create_time`,        products_sku.`update_time`,        products_sku.`tenant_id`,        products_sku.`sku_code`,        products_sku.`spu_id`,        products_sku.`pic_url`,        products_sku.`sales_price`,        products_sku.`market_price`,        products_sku.`cost_price`,        products_sku.`stock`,        products_sku.`weight`,        products_sku.`volume`,        products_sku.`enable`,        products_sku.`del_flag`,        products_sku.`vido_url`,        products_sku.`images_url`    </sql>
+        products_sku.`id`,
+        products_sku.`create_time`,
+        products_sku.`update_time`,
+        products_sku.`tenant_id`,
+        products_sku.`sku_code`,
+        products_sku.`spu_id`,
+        products_sku.`pic_url`,
+        products_sku.`sales_price`,
+        products_sku.`market_price`,
+        products_sku.`cost_price`,
+        products_sku.`stock`,
+        products_sku.`weight`,
+        products_sku.`volume`,
+        products_sku.`enable`,
+        products_sku.`del_flag`,
+        products_sku.`vido_url`,
+        products_sku.`images_url`
+    </sql>
 </mapper>

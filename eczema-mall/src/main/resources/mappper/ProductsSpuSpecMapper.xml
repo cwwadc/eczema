@@ -14,5 +14,11 @@
     </resultMap>
 
     <sql id="productsSpuSpecSql">
-        products_spu_spec.`id`,        products_spu_spec.`tenant_id`,        products_spu_spec.`spu_id`,        products_spu_spec.`spec_id`,        products_spu_spec.`create_time`,        products_spu_spec.`update_time`    </sql>
+        products_spu_spec.`id`,
+        products_spu_spec.`tenant_id`,
+        products_spu_spec.`spu_id`,
+        products_spu_spec.`spec_id`,
+        products_spu_spec.`create_time`,
+        products_spu_spec.`update_time`
+    </sql>
 </mapper>
