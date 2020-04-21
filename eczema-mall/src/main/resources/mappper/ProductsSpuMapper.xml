@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eczema.mall.mapper.ProductsSpuMapper">
+
+    <resultMap id="productsSpuMap" type="com.eczema.mall.entity.ProductsSpu">
+        <id property="id" column="id"/>
+        <result property="tenantId" column="tenant_id"/>
+        <result property="spuCode" column="spu_code"/>
+        <result property="name" column="name"/>
+        <result property="sellPoint" column="sell_point"/>
+        <result property="description" column="description"/>
+        <result property="categoryFirst" column="category_first"/>
+        <result property="categorySecond" column="category_second"/>
+        <result property="picUrls" column="pic_urls"/>
+        <result property="shelf" column="shelf"/>
+        <result property="sort" column="sort"/>
+        <result property="priceDown" column="price_down"/>
+        <result property="priceUp" column="price_up"/>
+        <result property="saleNum" column="sale_num"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="specType" column="spec_type"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="pointsGiveSwitch" column="points_give_switch"/>
+        <result property="pointsGiveNum" column="points_give_num"/>
+        <result property="pointsDeductSwitch" column="points_deduct_switch"/>
+        <result property="pointsDeductScale" column="points_deduct_scale"/>
+        <result property="pointsDeductAmount" column="points_deduct_amount"/>
+        <result property="freightTemplatId" column="freight_templat_id"/>
+        <result property="deliveryPlaceId" column="delivery_place_id"/>
+        <result property="factoryId" column="factory_id"/>
+        <result property="factoryName" column="factory_name"/>
+        <result property="vidoUrls" column="vido_urls"/>
+        <result property="imagesUrls" column="images_urls"/>
+    </resultMap>
+
+    <sql id="productsSpuSql">
+        products_spu.`id`,        products_spu.`tenant_id`,        products_spu.`spu_code`,        products_spu.`name`,        products_spu.`sell_point`,        products_spu.`description`,        products_spu.`category_first`,        products_spu.`category_second`,        products_spu.`pic_urls`,        products_spu.`shelf`,        products_spu.`sort`,        products_spu.`price_down`,        products_spu.`price_up`,        products_spu.`sale_num`,        products_spu.`create_time`,        products_spu.`update_time`,        products_spu.`spec_type`,        products_spu.`del_flag`,        products_spu.`points_give_switch`,        products_spu.`points_give_num`,        products_spu.`points_deduct_switch`,        products_spu.`points_deduct_scale`,        products_spu.`points_deduct_amount`,        products_spu.`freight_templat_id`,        products_spu.`delivery_place_id`,        products_spu.`factory_id`,        products_spu.`factory_name`,        products_spu.`vido_urls`,        products_spu.`images_urls`    </sql>
+</mapper>

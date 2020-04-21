@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eczema.mall.mapper.ProductsSkuSpecValueMapper">
+
+    <resultMap id="productsSkuSpecValueMap" type="com.eczema.mall.entity.ProductsSkuSpecValue">
+        <id property="id" column="id"/>
+        <result property="tenantId" column="tenant_id"/>
+        <result property="spuId" column="spu_id"/>
+        <result property="skuId" column="sku_id"/>
+        <result property="specValueId" column="spec_value_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <sql id="productsSkuSpecValueSql">
+        products_sku_spec_value.`id`,        products_sku_spec_value.`tenant_id`,        products_sku_spec_value.`spu_id`,        products_sku_spec_value.`sku_id`,        products_sku_spec_value.`spec_value_id`,        products_sku_spec_value.`create_time`,        products_sku_spec_value.`update_time`    </sql>
+</mapper>

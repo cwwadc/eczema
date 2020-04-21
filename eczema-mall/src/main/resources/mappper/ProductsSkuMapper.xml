@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eczema.mall.mapper.ProductsSkuMapper">
+
+    <resultMap id="productsSkuMap" type="com.eczema.mall.entity.ProductsSku">
+        <id property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="tenantId" column="tenant_id"/>
+        <result property="skuCode" column="sku_code"/>
+        <result property="spuId" column="spu_id"/>
+        <result property="picUrl" column="pic_url"/>
+        <result property="salesPrice" column="sales_price"/>
+        <result property="marketPrice" column="market_price"/>
+        <result property="costPrice" column="cost_price"/>
+        <result property="stock" column="stock"/>
+        <result property="weight" column="weight"/>
+        <result property="volume" column="volume"/>
+        <result property="enable" column="enable"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="vidoUrl" column="vido_url"/>
+        <result property="imagesUrl" column="images_url"/>
+    </resultMap>
+
+    <sql id="productsSkuSql">
+        products_sku.`id`,        products_sku.`create_time`,        products_sku.`update_time`,        products_sku.`tenant_id`,        products_sku.`sku_code`,        products_sku.`spu_id`,        products_sku.`pic_url`,        products_sku.`sales_price`,        products_sku.`market_price`,        products_sku.`cost_price`,        products_sku.`stock`,        products_sku.`weight`,        products_sku.`volume`,        products_sku.`enable`,        products_sku.`del_flag`,        products_sku.`vido_url`,        products_sku.`images_url`    </sql>
+</mapper>

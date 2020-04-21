@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eczema.mall.mapper.ProductsSpecMapper">
+
+    <resultMap id="productsSpecMap" type="com.eczema.mall.entity.ProductsSpec">
+        <id property="id" column="id"/>
+        <result property="tenantId" column="tenant_id"/>
+        <result property="name" column="name"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <sql id="productsSpecSql">
+        products_spec.`id`,        products_spec.`tenant_id`,        products_spec.`name`,        products_spec.`del_flag`,        products_spec.`create_time`,        products_spec.`update_time`    </sql>
+</mapper>
