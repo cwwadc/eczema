@@ -21,7 +21,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <security.oauth.version>2.3.5.RELEASE</security.oauth.version>
     <security.oauth.auto.version>2.1.2.RELEASE</security.oauth.auto.version>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <log4j.version>1.2.17</log4j.version>
     <lombok.version>1.18.10</lombok.version>
     <mysql.connector.version>5.1.47</mysql.connector.version>
